@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": ["*.ts", "*.js"],
+      "extends": "@antfu",
+      "rules": {
+        "no-console": "warn"
+      }
+    }
+  ]
+}
