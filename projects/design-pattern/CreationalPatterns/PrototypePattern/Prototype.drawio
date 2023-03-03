@@ -1,0 +1,102 @@
+<mxfile host="65bd71144e">
+    <diagram id="ryxTfiW5PGXqu4NxWWFd" name="第 1 页">
+        <mxGraphModel dx="1002" dy="808" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="410" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="dog实例" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="495" width="140" height="110" as="geometry">
+                        <mxRectangle x="220" y="420" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="- age" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+                    <mxGeometry x="30" y="50" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="- __proto__" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+                    <mxGeometry x="30" y="70" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="- name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+                    <mxGeometry x="30" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Dog构造函数" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="335" width="140" height="70" as="geometry">
+                        <mxRectangle x="220" y="420" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="- prototype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="7" vertex="1">
+                    <mxGeometry x="30" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="810" y="110" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Dog的prototype" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="300" width="140" height="140" as="geometry">
+                        <mxRectangle x="220" y="420" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="- constructor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="11" vertex="1">
+                    <mxGeometry x="20" y="60" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="- __proto__" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="11" vertex="1">
+                    <mxGeometry x="20" y="90" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="- eat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="11" vertex="1">
+                    <mxGeometry x="20" y="30" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="15" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Object构造函数" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="75" width="140" height="70" as="geometry">
+                        <mxRectangle x="220" y="420" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="- prototype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="15" vertex="1">
+                    <mxGeometry x="30" y="30" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Object的prototype" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="40" width="140" height="140" as="geometry">
+                        <mxRectangle x="220" y="420" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="- constructor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="17" vertex="1">
+                    <mxGeometry x="15" y="60" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="- __proto__" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="17" vertex="1">
+                    <mxGeometry x="20" y="90" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="- 各种属性/方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="17" vertex="1">
+                    <mxGeometry x="15" y="30" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="__proto__" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="520" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="prototype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="345" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="__proto__" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="345" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="prototype" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="75" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
