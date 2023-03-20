@@ -1,0 +1,25 @@
+{
+  "name": "css-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack server --mode=development",
+    "build": "cross-env NODE_ENV=none webpack build",
+    "build:dev": "cross-env NODE_ENV=development webpack build",
+    "build:prod": "cross-env NODE_ENV=production webpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@babel/runtime-corejs3": "^7.21.0",
+    "core-js": "^3.29.1",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "vue-loader": "^17.0.1"
+  }
+}
