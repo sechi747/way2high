@@ -4,7 +4,9 @@
     "module": "CommonJS",
     "strict": true,
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules"
