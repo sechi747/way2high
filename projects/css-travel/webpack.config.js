@@ -3,6 +3,7 @@ const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
+const UnoCSS = require('@unocss/webpack').default
 
 module.exports = {
   entry: './src/main.ts',
@@ -61,11 +62,16 @@ module.exports = {
     new VueLoaderPlugin(),
     new MiniCssExtractPlugin(),
     new ForkTsCheckerWebpackPlugin(),
+    UnoCSS(),
     new HtmlWebpackPlugin({
       title: 'css-travel',
       template: './public/index.html',
     }),
   ],
+
+  optimization: {
+    realContentHash: true,
+  },
 
   devServer: {
     hot: true,

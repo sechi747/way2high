@@ -13,13 +13,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@babel/runtime": "^7.21.0",
     "@babel/runtime-corejs3": "^7.21.0",
+    "@unocss/webpack": "^0.50.6",
     "core-js": "^3.29.1",
     "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "unocss": "^0.50.6",
     "vue-loader": "^17.0.1"
   }
 }
