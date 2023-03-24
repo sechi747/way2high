@@ -5,7 +5,7 @@ const msg = ref('Hello World')
 </script>
 
 <template>
-  <div class="w-full h-screen fcc">
-    <span class="text-24px font-bold text-primary">{{ msg }}</span>
+  <div class="w-full h-full fcc">
+    <span class="base text-24px font-bold font-mono">{{ msg }}</span>
   </div>
 </template>

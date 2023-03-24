@@ -11,7 +11,7 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
+    ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer select-none hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed'],
     ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-250 ease-in-out hover:opacity-100'],
 
     ['trans', 'transition-all-250 ease-linear'],
@@ -24,8 +24,9 @@ export default defineConfig({
     ['pf', 'fixed'],
     ['p-c', 'pa top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'],
 
-    ['f-c', 'flex justify-center items-center'],
-    ['f-c-c', 'f-c flex-col'],
+    ['f-c', 'flex flex-col'],
+    ['f-c-c', 'f-c  items-center'],
+    ['f-c-c-c', 'f-c-c justify-center'],
     ['fc', 'flex justify-center'],
     ['fcc', 'flex justify-center items-center'],
     ['fs', 'flex justify-start'],

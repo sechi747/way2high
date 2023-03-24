@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #fefefe;
+  color: #3b3b3b;
+}
+
+html.dark {
+  background: #1c1f24;
+  color: #c8ccd0;
+}

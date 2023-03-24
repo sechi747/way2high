@@ -1,16 +1,15 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomePage from '@/pages/HomePage/HomePage.vue'
+import Playground from '@/pages/Playground/Playground.vue'
 
 const routes = [
-  { path: '/', component: HomePage },
+  { name: 'HomePage', path: '/', component: HomePage },
+  { name: 'Playground', path: '/playground', component: Playground },
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
-  scrollBehavior() {
-    return { top: 0 }
-  },
 })
 
 export default router
