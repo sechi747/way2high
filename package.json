@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:css": "cd ./projects/css-travel && pnpm dev",
+    "dev:vue": "cd ./projects/vue-components && pnpm dev"
   },
   "keywords": [],
   "author": "sechi",
