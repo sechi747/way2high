@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "jsx": "preserve",
     "esModuleInterop": true,
     "isolatedModules": true,
     "types": ["vite/client"],
@@ -9,4 +10,5 @@
       "@/*": ["src/*"]
     },
   },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
 }
