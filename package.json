@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:css": "cd ./projects/css-travel && pnpm dev",
-    "dev:vue": "cd ./projects/vue-components && pnpm dev"
+    "dev:css": "pnpm -C projects/css-travel dev",
+    "dev:vue": "pnpm -C projects/vue-components dev"
   },
   "keywords": [],
   "author": "sechi",
