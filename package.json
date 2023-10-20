@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev:css": "pnpm -C projects/css-travel dev",
-    "dev:vue": "pnpm -C projects/vue-components dev"
+    "dev:vue": "pnpm -C projects/vue-components dev",
+    "dev:vite": "pnpm -C projects/vite-playground dev"
   },
   "keywords": [],
   "author": "sechi",
