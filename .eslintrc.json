@@ -1,12 +1,17 @@
 {
   "overrides": [
     {
-      "files": ["*.ts", "*.js", "*.vue", "*.jsx", "*.tsx"],
+      "files": ["*.ts", "*.vue", "*.tsx"],
       "extends": "@antfu",
       "rules": {
         "no-console": "off",
         "prefer-rest-params": "off"
       }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": "alloy",
+      "parser": "babel-eslint"
     }
   ]
 }
