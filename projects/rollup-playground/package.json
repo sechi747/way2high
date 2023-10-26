@@ -1,0 +1,23 @@
+{
+  "name": "rollup-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c",
+    "build": "node build.js",
+    "watch": "node watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
